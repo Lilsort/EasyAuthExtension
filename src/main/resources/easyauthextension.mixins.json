@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.lilsort.easyauthextension.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"LoginCommandMixin",
+		"AuthEventHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
